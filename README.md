@@ -1,12 +1,16 @@
-# Securden Provider
+# Securden CLI - Windows
 
-This guide will take you through the process of installing and using of Securden CLI to securely retrieve account credentials, keys, and secrets using APIs.
+This guide will take you through the process of installing and getting data through Securden CLI using pre-defined commands. 
 
 ## Summary of Steps
 
 1. Installation
 2. Updating Securden CLI
 3. Fetch credential via CLI commands
+
+## Prerequisites 
+
+1. Scoop Package Manager
 
 ## 1. Installation
 
@@ -32,11 +36,11 @@ scoop update securden-cli
 
 ### Securden Server URL
 
-> **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can get the ‘server_url’ from Securden by navigating to Admin >> General >> Securden Server Connectivity section in the Securden web interface.**
+> **&nbsp;&nbsp;&nbsp;&nbsp;You can get the ‘server_url’ from Securden by navigating to Admin >> General >> Securden Server Connectivity section in the Securden web interface.**
 
 ### API Token for Authentication
 
-> **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Securden server supports API token-based authentication for programmatic access to credentials. You can generate and copy the auth token from the Securden web interface by navigating to Admin >> API Access >> Create and Manage API Tokens.**
+> **&nbsp;&nbsp;&nbsp;&nbsp;Securden server supports API token-based authentication for programmatic access to credentials. You can generate and copy the auth token from the Securden web interface by navigating to Admin >> API Access >> Create and Manage API Tokens.**
 
 ```hcl
 securden-cli <command> --server-url <server-url> --authtoken <authtoken> <--params> 
