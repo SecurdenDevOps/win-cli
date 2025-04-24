@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "description": "Securden's official CLI tool provides a secure, seamless and an efficient way for non-developers and system admins to integrate Securden’s powerful password management abilities into their CLIs & tools. You can use it across various environments, whether it’s local development, CI/CD, staging, or production.",
+  "homepage": "https://github.com/SecurdenDevOps/win-cli",
+  "env_set": {
+    "SECURDEN_CLI_PATH": "$dir"
+  },
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/SecurdenDevOps/win-cli/releases/download/v1.0.0/securden-cli-windows-amd64.zip",
+      "hash": "6E128A2B9B3213DE8CD27CC0EC8FFD5893627F55BE49FA232F1E74376B353A0F"
+    }
+  },
+  "bin": "securden-cli.exe",
+  "checkver": {
+    "github": "https://github.com/SecurdenDevOps/win-cli"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/SecurdenDevOps/win-cli/releases/download/v$version/securden-cli-windows-amd64.zip"
+      }
+    }
+  }
+}
