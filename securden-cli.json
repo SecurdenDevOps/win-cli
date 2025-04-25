@@ -9,7 +9,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/SecurdenDevOps/win-cli/releases/download/v1.0.0/securden-cli-windows-amd64.zip",
-      "hash": "6E128A2B9B3213DE8CD27CC0EC8FFD5893627F55BE49FA232F1E74376B353A0F"
+      "hash": "1F2196BF83DC204725DCCE334F42B549360D54BD95628D5B224A88261B0F4CC6"
     }
   },
   "bin": "securden-cli.exe",
